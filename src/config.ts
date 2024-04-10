@@ -1,15 +1,15 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
-		{ owner: "Lomelicus", node: "https://pr01.myqwertycoin.com/sync/"},
-		{ owner: "ExploShot", node: "https://pr02.myqwertycoin.com/sync/"}
+		{ owner: "Lomelicus", node: "http://139.180.184.63:8197"},
+		{ owner: "ExploShot", node: "http://139.180.184.63:8197"}
 	],
-	nodeUrl: "https://pr02.myqwertycoin.com/sync/",
+	nodeUrl: "http://139.180.184.63:8197",
 	electionApiUrl: "https://voting.qwertycoin.org/api",
-	websiteApiUrl: "https://www.qwertycoin.org/wp-json",
-	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
-	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
-	mainnetExplorerUrlBlock: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_block",
+	websiteApiUrl: "http://139.180.184.63:8197",
+	mainnetExplorerUrl: "http://149.28.21.176/",
+	mainnetExplorerUrlHash: "http://149.28.21.176/?hash={ID}#blockchain_transaction",
+	mainnetExplorerUrlBlock: "http://149.28.21.176/?hash={ID}#blockchain_block",
 	testnetExplorerUrl: "https://explorer.testnet.qwertycoin.org/",
 	testnetExplorerUrlHash: "https://explorer.testnet.qwertycoin.org/?hash={ID}#blockchain_transaction",
 	testnetExplorerUrlBlock: "https://explorer.testnet.qwertycoin.org/?hash={ID}#blockchain_block",
